@@ -1,0 +1,108 @@
+body{
+    background-image: url(background.jpg);
+    background-attachment: fixed;
+    font-size:15px;
+    overflow-x:scroll;
+    overflow-y:hidden;
+}
+
+#div-board-title{
+    background-color:rgba(100,100,100,0.80);
+    margin: 5px;
+    width:auto;
+    padding: 7px 10px;
+    display:inline-block;
+    border-radius:3px;
+}
+
+#board-title{
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+}
+
+#board-title-input{
+    font-size:20px;
+    display:none;
+}
+
+#all-the-lists{
+    white-space:nowrap;
+}
+
+.list{
+    width:272px;
+    background-color:#ebecf0;
+    border-radius:3px;
+    display:inline-block;
+    line-height:20px;
+    max-height:100%;
+    margin:4px;
+    vertical-align:top;
+    padding:10px;
+}
+
+.list-title{
+    margin: 5px 0px;
+}
+
+#add-list-input{
+    width:100%;
+    margin:10px 0;
+    display:none;
+}
+
+.card-holder{
+    padding:5px 0px;
+}
+
+#add-card-input{
+    display:none;
+}
+
+input{
+    width:100%;
+    margin:10px 0;
+    font-size:15px;
+}
+
+.add-button{
+    color: white;
+    background-color:#5aac44;
+    border-radius:3px;
+    font-size:14px;
+    padding:3px 10px;
+}
+
+#add-list-button{
+    display:none;
+}
+
+.card{
+    background-color:white;
+    border: 1px grey solid;
+    border-radius:3px;
+    padding:4px;
+    margin:4px 0;
+    box-shadow: 1px 1px 0px #BBC3C3;
+}
+
+.card-title{
+    margin:0;
+    max-width:80%;
+    display:inline-block;
+}
+
+.card-title-input{
+    margin:0;
+    width:80%;
+}
+
+.pen{
+    float:right;
+    width:13px;
+    height:13px;
+    margin: 3px 0 0 2px;
+    padding:0;
+    display:none;
+}

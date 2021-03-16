@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Kanban Board</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+        <div id="div-board-title">
+            <a id="board-title" onclick="changeBoardTitle()">New table</a>
+            <input id="board-title-input" onkeyup="addInputBoardTitle()">
+        </div>
+        <br>
+        <div id="all-the-lists">
+            <div id="add-list" class="list">
+                <a onclick="openList()"><span id="button-add-list">+ Add a list</span></a>
+                <input type="text" id="add-list-input" name="add-list-input" onkeyup="addInputList()">
+                <button id="add-list-button" class="add-button" onclick="addList(countList, listInput)">Add List</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
